@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="men.css"> 
+		
+</head>
+
+<body>
+	<header>
+		<h1 id="top">Feast</h1>
+		<h1 id="top1">.com</h1>
+	</header>
+	<hr>
+	<nav id="navbar">
+		<img src="5.jpg">
+		<ul id="navcontent">
+			
+			<li><a href="about.php">About</a></li>
+			<li><a href="menu.php">Menu</a></li>
+			<li><a href="contact.php">ContactUs</a></li>
+			<li><a href="login.php">Sign In</a></li>
+			
+		</ul>
+	</nav>
+	
+	
+		<div id="row1">
+			Welcome to online Feast 
+		</div>
+		<section class="items">
+	 <div class="item">
+                <img src="chinese.jpg">
+                <h4> chinese 
+				<br>Rs 100 for one  
+				 <pre class="tab">   .48min </pre>
+				</br></h4>
+				<button onclick="window.location.href='order.php'">
+                Order</button>
+				
+            </div>
+            <div class="item">
+                <img src="icecream.jpg">
+                <h4> Ice Cream 
+				<br>Rs 30 for one  
+				 <pre class="tab">   .60min </pre>
+				</br></h4>
+                <button onclick="window.location.href='order.php'">
+				Order</button>
+            </div>
+            <div class="item">
+                <img src="indian.jpg">
+                <h4> Indian Thali 
+				<br>Rs 90 for one  
+				 <pre class="tab">   .30min </pre>
+				</br></h4>
+                <button onclick="window.location.href='order.php'">
+				Order</button>
+            </div>
+			
+        </section>	
+		
+	
+	</div>
+	<h3><a href=menu.php type="submit" value="Confirm"  id="submit" onClick="alert('')">View More</h3>
+	<br>
+	<footer>Copyright © 2020-2021 OnlineFeast.
+		All Rights are reserved</footer></br>
+</body>
+</html>

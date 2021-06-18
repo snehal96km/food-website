@@ -1,0 +1,21 @@
+h1{
+	text-align:center;
+    color:black;
+    font-size:26px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.center {
+text-color: #ffffff;
+margin: auto;
+width: 50%;
+border: 0px solid #000000;
+padding: 10px;
+}
+body {
+        background-color: #ffffff;
+      }
+
+p{
+	text-color:white;
+}
